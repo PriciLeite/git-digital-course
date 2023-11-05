@@ -1,5 +1,5 @@
 # Santander Coders 2023.2 | Back-End.
-### git-digital-course
+### Git-Digital-Course
 
 
 #### Comandos<br/>
@@ -15,8 +15,16 @@ modified / staged<br/>
 #### To Pull<br/>
 - git pull <br/>
 - To check: git pull fetch -> git diff origin/master<br/>
-#### Query History (Use log)<br/>
-- git log / git log --oneline / git log --graph / git log -- since "value" / git log --author "value".<br/>
+#### Query Historic (Use log)
+- git log<br/>
+- git log --oneline --decorate<br/>
+- git log --graph<br/>
+- git log -- since "value"<br/>
+- git log --author "value".<br/>
 #### Restore<br/>
 - To Modified: git restore .\directory<br/>
 - To staged: git restore --staged .\directory<br/>
+#### Create branch /Change branch
+- git branch testing<br/>
+- Verification: git log --oneline --decorate<br/>
+- advance: git checkout name-branch (to commit and return to master using the same command);<br/>
